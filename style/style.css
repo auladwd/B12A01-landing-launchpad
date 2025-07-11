@@ -231,7 +231,49 @@ button:hover{
       background-color: tomato;
     }
 
-    
+    /* Footer Section */
+
+.footer {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #f9f9f9;
+      color: #6b7280;
+      
+    }
+
+    .footer .logo {
+      font-size: 48px;
+      font-weight: 800;
+      color: #4f46e5;
+  
+      margin-bottom: 20px;
+    }
+
+    .footer .description {
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .footer .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 16px;
+      flex-wrap: wrap;
+    }
+
+    .footer .nav-links a {
+      color: #6b7280;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .footer .nav-links a:hover {
+      color: tomato;
+    }
+
 
 
 
