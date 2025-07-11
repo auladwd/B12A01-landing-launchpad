@@ -42,3 +42,25 @@ button:hover{
   padding: 20px;
 }
 
+
+/* Action Section */
+
+.action-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 100px;
+}
+
+.coloum2 img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.coloum1 button:hover{
+  background-color: tomato;
+ }
+
+
+
