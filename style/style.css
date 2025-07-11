@@ -170,6 +170,71 @@ button:hover{
   margin-top: 10px;
 }
 
+/* Let’s Get In Touch Section*/
+
+ .contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      gap: 100px;
+      max-width: 1140px;
+      margin: auto;
+    }
+
+    .contact-text {
+      font-size: 48px;
+      font-weight: 700;
+      color: #000;
+      line-height: 1.2;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .contact-form label {
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 12px 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    .contact-form textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    .contact-form button {
+      padding: 14px;
+      border: none;
+      background-color: #4F46E5;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .contact-form button:hover {
+      background-color: tomato;
+    }
+
+    
+
+
+
     
 
 
