@@ -62,5 +62,29 @@ button:hover{
   background-color: tomato;
  }
 
+ /* Productive Users Section */
+
+.production-user-section{
+  background-color: #c9d0f4;
+  margin: 50px 100px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  text-align: center;
+  }
+
+.numbers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 50px;
+  font-size: large;
+  font-weight: 800;
+}
+.numbers h2{
+  color: #4f46e5;
+  font-size: 30px;
+}
+
+
 
 
